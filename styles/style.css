@@ -12,7 +12,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.medium-font{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 150%;
+}
 .border {
     color: #1C1C21;
 }
@@ -26,15 +30,20 @@ body {
     max-width: 86.98%;
     margin: 0px auto;
 }
-
+.nav-section{
+    border-bottom: 1px solid #1C1C21;
+}
 nav {
     display: flex;
     padding: 30px 40px;
-    border: 1px solid #1C1C21;
+    border-right: 1px solid #1C1C21;
+    border-left: 1px solid #1C1C21;
     align-items: center;
     justify-content: space-between;
 }
-
+.nav-img img{
+    width: 100%;
+}
 nav ul {
     display: flex;
     align-items: flex-end;
@@ -55,8 +64,15 @@ nav ul li {
     border-top-right-radius: 15px;
 }
 nav ul li a {
-    color: #FFFFFF;
     border: 1px solid #1C1C21;
     padding: 30px 50px;
     text-decoration: none;
+    color: #AFB0B6;
+}
+.nav-btn button{
+    color: #ffffff;
+    background-color: #131316;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
 }
