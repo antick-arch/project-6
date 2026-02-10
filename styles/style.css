@@ -22,6 +22,11 @@
     font-size: 3.625rem;
     font-weight: 600;
 }
+.semi-bold-sm{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #797C86;
+}
 .border {
     color: #1C1C21;
 }
@@ -40,6 +45,10 @@ body {
 }
 .text-tranform{
     text-transform: uppercase;
+}
+
+.margin-bottom{
+    margin-bottom: 200px;
 }
 
 .nav-section{
@@ -150,4 +159,10 @@ nav ul li a {
 
 .banner-cover-container img{
     width: 100%;
+}
+
+.about-short{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
