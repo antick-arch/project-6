@@ -147,3 +147,7 @@ nav ul li a {
 .icon-text{
     color: #D7D0FB;
 }
+
+.banner-cover-container img{
+    width: 100%;
+}
