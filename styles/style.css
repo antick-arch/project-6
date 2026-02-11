@@ -241,3 +241,40 @@ nav ul li a {
     gap: 128px;
 }
 
+.contact-info{
+    padding: 40px;
+    border-top: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.logo-btn{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.logos{
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.logos i{
+    color: #4A2CED;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.cti{
+    color: #E5E5E7;
+}
+.ct{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: #AFB0B6;
+}
